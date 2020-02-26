@@ -1,0 +1,11 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: auto;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5%;
+}
