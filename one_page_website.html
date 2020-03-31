@@ -33,152 +33,153 @@
 	<!--GALLERY-->
 	
 	<section id="gallery">
-			<h1>Gallery</h1>
-			<div>
-			
-			<!--PHOTO CONTAINER 1-->
-			<div>
-				<div>
-					<img src="./images_1/thumb_1/thumbnail_1.jfif" alt"">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>This could be your next dream vacation</p>
-					</div>
-				</div>
+		<h2 style="text-align:center">Lightbox</h2>
+
+		<div class="row">
+		  <div class="column">
+			<img src="./images_1/Thumb_1/thumbnail_1.jfif" style="width:100%" <onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+			<img src="./images_1/Thumb_1/thumbnail_2.jfif" style="width: 100%" <onclick=openModal();currentSlide(2)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+			<img src="./images_1/Thumb_1/thumbnail_3.jfif" style="width:100%" <onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+			<img src="./images_1/Thumb_1/thumbnail_4.jfif" style="width:100%" <onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+			<img src="./images_1/Thumb_1/thumbnail_5.jpg" style="width:100%" <onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+			<img src="./images_1/Thumb_1/thumbnail_6.jpg" style="width:100%" <onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+			<img src="./images_1/Thumb_1/thumbnail_9.jfif" style="width:100%" <onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+		  </div>
+		  <div class="column">
+			<img src="./images_1/Thumb_1/thumbnail_8.jpg" style="width:100%" <onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+		  </div>
+		</div>
+		
+		<div id="myModal" class="modal">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+		
+			<div class="mySlides">
+			  <div class="numbertext">1 / 8</div>
+			  <img src="./images_1/Thumb_1/thumbnail_1.jfif" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+			  <div class="numbertext">2 / 8</div>
+			  <img src="./images_1/Thumb_1/thumbnail_2.jfif" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+			  <div class="numbertext">3 / 8</div>
+			  <img src="./images_1/Thumb_1/thumbnail_3.jfif" style="width:100%">
 			</div>
 			
-			<!--END PHOTO CONTAINER 1-->
-			
-			<!--PHOTO CONTAINER 2-->
-			<div>
-				<div>
-					<img src="./images_1/thumb_1/thumbnail_2.jfif" alt"">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>This could be your next dream vacation</p>
-					</div>
-				</div>
+			<div class="mySlides">
+			  <div class="numbertext">4 / 8</div>
+			  <img src="./images_1/Thumb_1/thumbnail_4.jfif" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">5 / 8</div>
+				<img src="./images_1/Thumb_1/thumbnail_5.jpg" style="width:100%">
+			  </div>
+
+			<div class="mySlides">
+			  <div class="numbertext">6 / 8</div>
+			  <img src="./images_1/Thumb_1/thumbnail_6.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">7 / 8</div>
+				<img src="./images_1/Thumb_1/thumbnail_9.jfif" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">8 / 8</div>
+				<img src="./images_1/Thumb_1/thumbnail_8.jpg" style="width:100%">
 			</div>
 			
-			<!--END PHOTO CONTAINER 2-->
-			
-			<!--PHOTO CONTAINER 3-->
-			<div>
-				<div>
-					<img src="./images_1/thumb_1/thumbnail_3.jfif" alt"">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>This could be your next dream vacation</p>
-					</div>
-				</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+			<div class="caption-container">
+			  <p id="caption"></p>
 			</div>
-			
-			<!--END PHOTO CONTAINER 3-->
-			
-			<!--PHOTO CONTAINER 4-->
-			<div>
-				<div>
-					<img src="./images_1/thumb_1/thumbnail_4.jfif" alt"">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>This could be your next dream vacation</p>
-					</div>
-				</div>
+		
+		
+			<div class="column">
+			  <img class="demo cursor" src="./images_1/Thumb_1/thumbnail_1.jfif" style="width:100%" onclick="currentSlide(1)" alt="">
 			</div>
-			
-			<!--END PHOTO CONTAINER 4-->
-			
-			<!--PHOTO CONTAINER 5-->
-			<div>
-				<div>
-					<img src="./images_1/thumb_1/thumbnail_5.jpg" alt"">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>This could be your next dream vacation</p>
-					</div>
-				</div>
+			<div class="column">
+			  <img class="demo cursor" src="./images_1/Thumb_1/thumbnail_2.jfif" style="width:100%" onclick="currentSlide(2)" alt="">
 			</div>
-			
-			<!--END PHOTO CONTAINER 5-->
-			
-			<!--PHOTO CONTAINER 6-->
-			<div>
-				<div>
-					<img src="./images_1/thumb_1/thumbnail_6.jpg" alt"">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>This could be your next dream vacation</p>
-					</div>
-				</div>
+			<div class="column">
+			  <img class="demo cursor" src="./images_1/Thumb_1/thumbnail_3.jfif" style="width:100%" onclick="currentSlide(3)" alt="">
 			</div>
-			
-			<!--END PHOTO CONTAINER 6-->
-			
-			<!--PHOTO CONTAINER 7-->
-			<div>
-				<div>
-					<img src="./images_1/thumb_1/thumbnail_7.jpg" alt"">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>This could be your next dream vacation</p>
-					</div>
-				</div>
+			<div class="column">
+			  <img class="demo cursor" src="./images_1/Thumb_1/thumbnail_4.jfif" style="width:100%" onclick="currentSlide(4)" alt="">
 			</div>
-			
-			<!--END PHOTO CONTAINER 7-->
-			
-			<!--PHOTO CONTAINER 8-->
-			<div>
-				<div>
-					<img src="./images_1/thumb_1/thumbnail_8.jpg" alt"">
-					<div>
-						<h3>Click to Enlarge</h3>
-						<p>This could be your next dream vacation</p>
-					</div>
-				</div>
+			<div class="column">
+				<img class="demo cursor" src="./images_1/Thumb_1/thumbnail_5.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
 			</div>
-			
-			<!--END PHOTO CONTAINER 8-->
-			
+			<div class="column">
+				<img class="demo cursor" src="./images_1/Thumb_1/thumbnail_6.jpg" style="width:100%" onclick="currentSlide(6)" alt="">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="./images_1/Thumb_1/thumbnail_9.jfif" style="width:100%" onclick="currentSlide(7)" alt="">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="./images_1/Thumb_1/thumbnail_8.jpg" style="width:100%" onclick="currentSlide(8)" alt="">
+			</div>
+		  </div>
 		</div>
 	</section>
-	
-	<!--END GALLERY-->
-	
-	<!--RSVP-->
 	<section id="contact">
 		<div class="container">
+			<div>
+				<h1>Reservations</h1>
 				<div>
-					<h1>Reservations</h1>
+					<h2><span>Your adventure starts here.</span>
+						<br />Reserve your vacation today!
+					</h2>
+					<p>
+						Please provide us with your basic contact information.
+					</p>
 					<div>
-						<h2><span>Your adventure starts here.</span>
-							<br />Reserve your vacation today!
-						</h2>
-						<p>
-							Please provide us with your basic contact information.
-						</p>
-						<div>
-							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name"><br>
-								<input class="rsvp" type="text" value="Last Name"><br>
-								<input class="rsvp" type="text" value="Email Address"><br>
-								<input class="rsvp" type="text" value="Phone Number"><br>
-								<div class="form-vacation">
-									<label class="terms">Terms and Conditions</label>
-								</div>
-									<input type="submit" value="Submit">
-							</form>
-						</div>
+						<form action="" method="post">
+							<input class="rsvp" type="text" value="First Name"><br>
+							<input class="rsvp" type="text" value="Last Name"><br>
+							<input class="rsvp" type="text" value="Email Address"><br>
+							<input class="rsvp" type="text" value="Phone Number"><br>
+							<div class="form-vacation">
+								<label class="terms">Terms and Conditions</label>
+							</div>
+								<input type="submit" value="Submit">
+						</form>
 					</div>
 				</div>
+			</div>
 		</div>
 	</section>
 		<!--END RSVP-->
+
+	<script src="JS/one_page_website.js"></script>
 		
-		<!--FOOTER-->
-		<div>
-			www.nextadventure.com &nbsp;|&nbsp; &copy; 2020
-		</div>
-		<!--END FOOTER-->
-	
+
+</body>
+<footer>
+<!--FOOTER-->
+<div>
+	www.nextadventure.com &nbsp;|&nbsp; &copy; 2020
+</div>
+</footer>
+<!--END FOOTER-->
+</html>
 	
